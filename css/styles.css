@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
+
+/*estilo general*/
+* {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*body*/
+body{
+    background-color: #2E86C1;
+}
+
+/*estilo ul*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E86C1;
+}
+
+/*estilo li*/
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container{
+    width: 300px; /*ancho*/
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    
+  }
+
+  .container input#search{
+    width: 300px;
+    height: 50px; /*altura*/
+    background: #2E86C1;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #2E86C1;
+    padding-left: 45px;
+  
+  }
+
+ .container input#search:-ms-input-placeholder {  
+    color: #65737e;  
+ }
+
+ .container .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #f1f8ff;
+  }
+
+p{
+    background:#2E86C1; 
+    color:white; 
+    font-weight:bold; 
+    padding:15px; 
+    border:3px solid #2E86C1; 
+    margin-top:40px; 
+    margin-bottom:40px; 
+    text-align:left; 
+    font-size:60px;
+}
